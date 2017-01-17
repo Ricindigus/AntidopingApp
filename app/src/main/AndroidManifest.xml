@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apoyo03_ui.antidoppingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PrincipalActivity" />
+        <activity
+            android:name=".BusquedaActivity"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity" />
+        </activity>
+        <activity
+            android:name=".ProhibidaActivity"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity" />
+        </activity>
+        <activity
+            android:name=".SancionadoActivity"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity" />
+        </activity>
+        <activity
+            android:name=".AUTActivity"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity" />
+        </activity>
+        <activity
+            android:name=".RiesgosActivity"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity" />
+        </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:parentActivityName=".PrincipalActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PrincipalActivity" />
+        </activity>
+
+        <activity
+            android:name=".ReferenciaActivity"
+            android:label="@string/title_activity_referencia"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

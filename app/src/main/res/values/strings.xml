@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AntidoppingApp</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="salud_hombre_texto1">Dolor de cabeza</string>
+    <string name="salud_hombre_texto2">Cáncer de mama</string>
+    <string name="salud_hombre_texto3">Hipogonadismo</string>
+    <string name="salud_hombre_texto4">Impotencia</string>
+    <string name="salud_hombre_texto5">Atrofia de testículos</string>
+    <string name="salud_hombre_texto6">Reduce el número de espermatozoides</string>
+
+    <string name="salud_mujer_texto1">Aumenta el vello facial y corporal</string>
+    <string name="salud_mujer_texto2">Engrosamiento de la voz</string>
+    <string name="salud_mujer_texto3">Reduce el contorno del pecho</string>
+    <string name="salud_mujer_texto4">Problemas menstruales</string>
+    <string name="salud_mujer_texto5">Hipertrofia del clítoris</string>
+
+    <string name="salud_ambos_texto1">Accidentes cerebro-vasculares y coágulos de sangre</string>
+    <string name="salud_ambos_texto2">Acné severo en cara y espalda</string>
+    <string name="salud_ambos_texto3">Presión arterial alta y enfermedades del corazón</string>
+    <string name="salud_ambos_texto4">Calvicie</string>
+    <string name="salud_ambos_texto5">Problemas de crecimiento</string>
+    <string name="salud_ambos_texto6">Problemas sicológicos: furia, agresión, manías y delirios</string>
+    <string name="salud_ambos_texto7">Náuseas y problemas intestinales</string>
+    <string name="salud_ambos_texto8">Muerte súbita</string>
+    <string name="salud_ambos_texto9">Daño hepático, tumores y quistes</string>
+    <string name="salud_ambos_texto10">Problemas urinarios</string>
+    <string name="salud_ambos_texto11">Incrementa el riesgo de lesiones en tendones y dolor articular</string>
+
+
+    <string name="vida_deportiva_texto1">No podrás competir durante el tiempo que dure tu sanción. Hay castigos que llegan a los cuatro años de inhabilitación.</string>
+    <string name="vida_deportiva_texto2">Perderás todo apoyo económico y deberás afrontar individualmente tu defensa ante las instancias correspondientes.</string>
+    <string name="vida_deportiva_texto3">Perderás los récords, medallas y premios que hayas conseguido beneficiándote del uso de una sustancia prohibida. </string>
+    <string name="vida_deportiva_texto4">Deberás mantenerte alejado de los lugares de entrenamiento afiliados a tu federación. Eso quiere decir que ni siquiera podrás desempeñarte como entrenador de otras categorías.</string>
+    <string name="vida_deportiva_texto5">Si decides seguir entrenando, deberás hacerlo por tu cuenta y no sin utilizar las instalaciones de tu federación.</string>
+</resources>
