@@ -1,4 +1,4 @@
-package com.example.apoyo03_ui.antidoppingapp.fragments;
+package com.example.apoyo03_ui.antidoppingapp.fragmentsRiesgo;
 
 
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import com.example.apoyo03_ui.antidoppingapp.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SaludFragment extends Fragment {
+public class DeporteFragment extends Fragment {
 
 
-    public SaludFragment() {
+    public DeporteFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class SaludFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_salud, container, false);
+        return inflater.inflate(R.layout.fragment_deporte, container, false);
     }
 
 }

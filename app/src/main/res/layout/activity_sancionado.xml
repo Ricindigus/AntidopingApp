@@ -9,10 +9,42 @@
 
     <include layout="@layout/toolbar_app"/>
 
-    <LinearLayout
-        android:orientation="vertical"
+    <RelativeLayout
+        android:background="@color/sancionado_primary_dark"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_text"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true">
+            <TextView
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/sancionado_primary_dark"
+                android:text="@string/texto_sancionado"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <!-- This could be your fragment container, or something -->
+        <FrameLayout
+            android:id="@+id/contentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primary_light"
+            android:layout_below="@id/layout_text"
+            android:layout_above="@+id/bottomBar" />
+        <com.roughike.bottombar.BottomBar
+            app:bb_showShadow="false"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="0dp"
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:bb_tabXmlResource="@xml/sancionado_bottombar"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
 </android.support.design.widget.CoordinatorLayout>

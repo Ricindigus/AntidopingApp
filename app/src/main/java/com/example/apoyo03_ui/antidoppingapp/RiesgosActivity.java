@@ -1,11 +1,9 @@
 package com.example.apoyo03_ui.antidoppingapp;
 
-import android.support.annotation.IdRes;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -16,11 +14,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
-
-import com.example.apoyo03_ui.antidoppingapp.fragments.DeporteFragment;
-import com.example.apoyo03_ui.antidoppingapp.fragments.SaludFragment;
-import com.roughike.bottombar.BottomBar;
-import com.roughike.bottombar.OnTabSelectListener;
 
 public class RiesgosActivity extends AppCompatActivity {
 

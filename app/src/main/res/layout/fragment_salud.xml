@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.apoyo03_ui.antidoppingapp.fragments.SaludFragment">
+    tools:context="com.example.apoyo03_ui.antidoppingapp.fragmentsRiesgo.SaludFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:src="@drawable/icon_hombre"/>
+                    android:src="@drawable/ic_man"/>
                 <TextView
                     android:layout_weight="4"
                     android:gravity="center"
@@ -34,7 +34,7 @@
                     android:layout_height="match_parent"
                     android:textStyle="bold"
                     android:text="Hombres"
-                    android:textColor="@color/riesgo_primary"
+                    android:textColor="@color/riesgo_primary_dark"
                     android:textSize="20sp"/>
                 <ImageView
                     android:padding="5dp"
@@ -214,7 +214,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:src="@drawable/icon_mujer"/>
+                    android:src="@drawable/ic_woman"/>
                 <TextView
                     android:layout_weight="4"
                     android:gravity="center"
@@ -222,7 +222,7 @@
                     android:layout_height="match_parent"
                     android:textStyle="bold"
                     android:text="Mujeres"
-                    android:textColor="@color/riesgo_primary"
+                    android:textColor="@color/riesgo_primary_dark"
                     android:textSize="20sp"/>
                 <ImageView
                     android:padding="5dp"
@@ -382,7 +382,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:src="@drawable/icon_ambos"/>
+                    android:src="@drawable/ic_ambos"/>
                 <TextView
                     android:layout_weight="4"
                     android:gravity="center"
@@ -390,7 +390,7 @@
                     android:layout_height="match_parent"
                     android:textStyle="bold"
                     android:text="Ambos Sexos"
-                    android:textColor="@color/riesgo_primary"
+                    android:textColor="@color/riesgo_primary_dark"
                     android:textSize="20sp"/>
                 <ImageView
                     android:padding="5dp"
