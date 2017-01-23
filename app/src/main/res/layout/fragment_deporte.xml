@@ -20,6 +20,7 @@
                 android:background="@drawable/man"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
+                android:elevation="2dp"
                 >
                 <LinearLayout
                     android:layout_weight="1"
@@ -36,7 +37,6 @@
                     android:text="@string/vida_deportiva_texto1"
                     android:textColor="@color/icons"
                     android:textSize="15sp"/>
-
             </LinearLayout>
             <LinearLayout
                 android:orientation="vertical"
@@ -44,6 +44,7 @@
                 android:background="@drawable/apoyo_economico"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
+                android:elevation="2dp"
                 >
                 <LinearLayout
                     android:layout_weight="1"
@@ -68,6 +69,7 @@
                 android:background="@drawable/medallas"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
+                android:elevation="2dp"
                 >
                 <LinearLayout
                     android:layout_weight="1"
@@ -92,6 +94,7 @@
                 android:background="@drawable/campo_entrenamiento"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
+                android:elevation="2dp"
                 >
                 <LinearLayout
                     android:layout_weight="1"
@@ -115,6 +118,7 @@
                 android:background="@drawable/propia_cuenta"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
+                android:elevation="2dp"
                 >
                 <LinearLayout
                     android:layout_weight="1"
@@ -131,7 +135,6 @@
                     android:text="@string/vida_deportiva_texto5"
                     android:textColor="@color/icons"
                     android:textSize="15sp"/>
-
             </LinearLayout>
 
         </LinearLayout>

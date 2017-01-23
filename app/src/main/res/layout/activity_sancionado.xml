@@ -14,22 +14,31 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-        <LinearLayout
+        <android.support.design.widget.AppBarLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/layout_text"
+            app:elevation="0dp"
+            android:padding="0dp"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_alignParentTop="true">
-            <TextView
-                android:background="#FFFFFF"
-                android:padding="5dp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:textColor="@color/sancionado_primary_dark"
-                android:text="@string/texto_sancionado"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarApp"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </LinearLayout>
-        <!-- This could be your fragment container, or something -->
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/icons">
+                <TextView
+                    android:layout_margin="0dp"
+                    android:paddingRight="15dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/sancionado_primary_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/texto_sancionado"/>
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
         <FrameLayout
             android:id="@+id/contentContainer"
             android:layout_width="match_parent"

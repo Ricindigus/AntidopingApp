@@ -52,4 +52,17 @@
     <string name="texto_sancionado_10">10. Asociación prohibida: los deportistas y otras personas
         dependientes de una organización antidopaje no pueden trabajar con entrenadores, médicos o
         cualquier personal de apoyo que se encuentren suspendidos por una infracción al código antidopaje.</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="aut_texto">Si para proteger tu salud necesitas tomar una sustancia prohibida o
+        utilizar un método prohibido, entonces debes obtener la Autorización de Uso Terapéutico (AUT).
+        \nLa solicitud de AUT debe realizarse al menos 30 días antes de competir en un torneo.
+        \nLa AUT solo funcionará retroactivamente en casos de emergencia debidamente acreditados.
+</string>
+    <string name="pasos_a_seguir">¿QUÉ PASOS DEBO SEGUIR?</string>
+    <string name="aut_paso1">Descarga el formulario de AUT (https://goo.gl/ESbfNB)</string>
+    <string name="aut_paso2">Llena el formulario con tu médico y envíalo al correo de la comisión de AUT de la CONAD</string>
+    <string name="aut_paso3">Una vez recibida tu solicitud, el panel de expertos la revisará y decidirá favorablemente en los siguientes casos:</string>
+    <string name="aut_paso4">La CONAD te informará si tu solicitud fue aprobada. En caso de una solicitud denegada, se te informarán las razones y podrás apelar dicha decisión.</string>
 </resources>

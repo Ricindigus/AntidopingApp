@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
+            android:background="@color/icons"
             android:padding="@dimen/activity_vertical_margin"
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -49,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
-                    android:elevation="5dp"
+                    android:elevation="2dp"
                     android:orientation="vertical"
                     android:background="@drawable/dolor_cabeza"
                     android:layout_weight="5"
@@ -73,7 +74,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:elevation="5dp"
+                    android:elevation="2dp"
                     android:orientation="vertical"
                     android:background="@drawable/cancer"
                     android:layout_weight="5"
@@ -102,7 +103,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
-                    android:elevation="5dp"
+                    android:elevation="2dp"
                     android:orientation="vertical"
                     android:background="@drawable/dolor_cabeza"
                     android:layout_weight="5"
@@ -122,11 +123,11 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_hombre_texto1"/>
+                        android:text="@string/salud_hombre_texto3"/>
                 </LinearLayout>
 
                 <LinearLayout
-                    android:elevation="5dp"
+                    android:elevation="2dp"
                     android:orientation="vertical"
                     android:background="@drawable/cancer"
                     android:layout_weight="5"
@@ -146,7 +147,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_hombre_texto2"/>
+                        android:text="@string/salud_hombre_texto4"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -155,7 +156,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
-                    android:elevation="5dp"
+                    android:elevation="2dp"
                     android:orientation="vertical"
                     android:background="@drawable/dolor_cabeza"
                     android:layout_weight="5"
@@ -175,11 +176,11 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_hombre_texto1"/>
+                        android:text="@string/salud_hombre_texto5"/>
                 </LinearLayout>
 
                 <LinearLayout
-                    android:elevation="5dp"
+                    android:elevation="2dp"
                     android:orientation="vertical"
                     android:background="@drawable/cancer"
                     android:layout_weight="5"
@@ -199,7 +200,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_hombre_texto2"/>
+                        android:text="@string/salud_hombre_texto6"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -237,6 +238,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/vello"
                     android:layout_weight="5"
@@ -260,6 +262,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/mujervoz"
                     android:layout_weight="5"
@@ -288,6 +291,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/vello"
                     android:layout_weight="5"
@@ -307,10 +311,11 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_mujer_texto1"/>
+                        android:text="@string/salud_mujer_texto3"/>
                 </LinearLayout>
 
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/mujervoz"
                     android:layout_weight="5"
@@ -330,7 +335,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_mujer_texto2"/>
+                        android:text="@string/salud_mujer_texto4"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -339,6 +344,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/vello"
                     android:layout_weight="5"
@@ -358,7 +364,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_mujer_texto1"/>
+                        android:text="@string/salud_mujer_texto5"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -405,6 +411,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/coagulos"
                     android:layout_weight="5"
@@ -427,6 +434,7 @@
                         android:text="@string/salud_ambos_texto1"/>
                 </LinearLayout>
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/acne"
                     android:layout_weight="5"
@@ -455,6 +463,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/coagulos"
                     android:layout_weight="5"
@@ -474,9 +483,10 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_ambos_texto1"/>
+                        android:text="@string/salud_ambos_texto3"/>
                 </LinearLayout>
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/acne"
                     android:layout_weight="5"
@@ -496,7 +506,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_ambos_texto2"/>
+                        android:text="@string/salud_ambos_texto4"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -505,6 +515,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/coagulos"
                     android:layout_weight="5"
@@ -524,9 +535,10 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_ambos_texto1"/>
+                        android:text="@string/salud_ambos_texto5"/>
                 </LinearLayout>
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/acne"
                     android:layout_weight="5"
@@ -546,7 +558,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_ambos_texto2"/>
+                        android:text="@string/salud_ambos_texto6"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -555,6 +567,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/coagulos"
                     android:layout_weight="5"
@@ -574,9 +587,10 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_ambos_texto1"/>
+                        android:text="@string/salud_ambos_texto7"/>
                 </LinearLayout>
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/acne"
                     android:layout_weight="5"
@@ -596,7 +610,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_ambos_texto2"/>
+                        android:text="@string/salud_ambos_texto8"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -605,6 +619,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/coagulos"
                     android:layout_weight="5"
@@ -624,9 +639,10 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_ambos_texto1"/>
+                        android:text="@string/salud_ambos_texto9"/>
                 </LinearLayout>
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/acne"
                     android:layout_weight="5"
@@ -646,7 +662,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_ambos_texto2"/>
+                        android:text="@string/salud_ambos_texto10"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -655,6 +671,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp">
                 <LinearLayout
+                    android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
                     android:background="@drawable/coagulos"
                     android:layout_weight="5"
@@ -674,7 +691,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_ambos_texto1"/>
+                        android:text="@string/salud_ambos_texto11"/>
                 </LinearLayout>
                 <LinearLayout
                     android:orientation="vertical"
