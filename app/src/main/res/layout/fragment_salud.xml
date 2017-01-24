@@ -105,7 +105,7 @@
                 <LinearLayout
                     android:elevation="2dp"
                     android:orientation="vertical"
-                    android:background="@drawable/dolor_cabeza"
+                    android:background="@drawable/hipogonadismo"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -129,7 +129,7 @@
                 <LinearLayout
                     android:elevation="2dp"
                     android:orientation="vertical"
-                    android:background="@drawable/cancer"
+                    android:background="@drawable/impotencia"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -158,7 +158,7 @@
                 <LinearLayout
                     android:elevation="2dp"
                     android:orientation="vertical"
-                    android:background="@drawable/dolor_cabeza"
+                    android:background="@drawable/testicular"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -182,7 +182,7 @@
                 <LinearLayout
                     android:elevation="2dp"
                     android:orientation="vertical"
-                    android:background="@drawable/cancer"
+                    android:background="@drawable/espermatozoides"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -293,7 +293,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/vello"
+                    android:background="@drawable/reduce_senos"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -317,7 +317,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/mujervoz"
+                    android:background="@drawable/hipertrofia_clitoris"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -335,7 +335,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_mujer_texto4"/>
+                        android:text="@string/salud_mujer_texto5"/>
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -346,7 +346,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/vello"
+                    android:background="@drawable/problemas_menstruales"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -364,7 +364,7 @@
                         android:layout_weight="0.5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/salud_mujer_texto5"/>
+                        android:text="@string/salud_mujer_texto4"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -465,7 +465,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/coagulos"
+                    android:background="@drawable/presion_arterial"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -488,7 +488,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/acne"
+                    android:background="@drawable/calvicie"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -517,7 +517,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/coagulos"
+                    android:background="@drawable/problemas_crecimiento"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -540,7 +540,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/acne"
+                    android:background="@drawable/furia_agresion"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -569,7 +569,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/coagulos"
+                    android:background="@drawable/nauseas"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -592,7 +592,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/acne"
+                    android:background="@drawable/muerte_subita"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -621,7 +621,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/coagulos"
+                    android:background="@drawable/hepatico"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -644,7 +644,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/acne"
+                    android:background="@drawable/da_o_urinario"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -673,7 +673,7 @@
                 <LinearLayout
                     android:elevation="@dimen/cardview_default_elevation"
                     android:orientation="vertical"
-                    android:background="@drawable/coagulos"
+                    android:background="@drawable/lesiones_musculares"
                     android:layout_weight="5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"

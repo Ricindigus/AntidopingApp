@@ -1,12 +1,17 @@
 package com.example.apoyo03_ui.antidoppingapp;
 
+import android.annotation.SuppressLint;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.support.annotation.IdRes;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
@@ -34,6 +39,7 @@ public class SancionadoActivity extends AppCompatActivity {
     int fragmentAnterior = 0;
     Fragment fragment;
     BottomBar bottomBar;
+    Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -151,10 +157,20 @@ public class SancionadoActivity extends AppCompatActivity {
         return super.onTouchEvent(event);
     }
     public void showToolbar(String title, boolean upButton){
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbarApp);
+        toolbar = (Toolbar) findViewById(R.id.toolbarApp);
         toolbar.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.sancionado_primary));
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle(title);
         getSupportActionBar().setDisplayHomeAsUpEnabled(upButton);
     }
+
+    @SuppressLint("NewApi")
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        // TODO Auto-generated method stub
+        if (keyCode == event.KEYCODE_BACK) {
+            finish();
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+
 }

@@ -6,11 +6,12 @@
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
-        android:background="@color/video_primary"
+        android:background="@drawable/uso_sustancia_prohibida"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <TextView
+            android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:background="#55000000"
             android:padding="5dp"

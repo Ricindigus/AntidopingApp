@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="@color/colorPrimary"
-            app:title="¿Cómo es un dopaje?"
+            app:title="Control Antidopaje"
             app:popupTheme="@style/AppTheme.PopupOverlay"
             app:titleTextColor="@color/icons"
             app:navigationIcon="@drawable/back5">
@@ -30,7 +30,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
-
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
@@ -43,6 +42,7 @@
                 />
         </LinearLayout>
         <LinearLayout
+            android:orientation="vertical"
             android:padding="@dimen/activity_vertical_margin"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -50,8 +50,9 @@
             <TextView
                 android:padding="5dp"
                 android:textColor="@color/bb_darkBackgroundColor"
-                android:text="@string/texto_app"
-                android:layout_width="wrap_content"
+                android:text="@string/texto_video"
+                android:autoLink="web"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>

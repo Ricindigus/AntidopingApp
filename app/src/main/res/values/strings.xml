@@ -35,9 +35,12 @@
     <string name="vida_deportiva_texto4">Deberás mantenerte alejado de los lugares de entrenamiento afiliados a tu federación. Eso quiere decir que ni siquiera podrás desempeñarte como entrenador de otras categorías.</string>
     <string name="vida_deportiva_texto5">Si decides seguir entrenando, deberás hacerlo por tu cuenta y no sin utilizar las instalaciones de tu federación.</string>
     <string name="title_activity_referencia_maps">Map</string>
-    <string name="texto_app">La Lista Prohibida es un documento internacional preparado por la
+    <string name="texto_lista_prohibida">La Lista Prohibida es un documento internacional preparado por la
         Agencia Mundial Antidopaje en el que se identifican las sustancias y métodos prohibidos en el deporte.
         Hay sustancias prohibidas en competencia y otras que están prohibidas fuera de competencia.</string>
+    <string name="texto_video">Si aún no pasas un control antidopaje, este video te ilustrará los pasos
+        que deberás seguir y te instruirá en tus deberes y derechos al momento de ser seleccionado.( https://goo.gl/DMLXNW )
+    </string>
     <string name="texto_sancionado">Serás responsable de un dopaje si incurres en una de las siguientes faltas:</string>
     <string name="texto_sancionado_1">1. Presencia de una sustancia prohibida en tu muestra de orina y/o sangre.</string>
     <string name="texto_sancionado_2">2. Negativa a realizar un control luego de haber sido notificado.</string>

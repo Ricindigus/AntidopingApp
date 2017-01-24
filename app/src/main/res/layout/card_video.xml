@@ -27,7 +27,7 @@
             android:gravity="center|left"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="¿Cómo es un dopaje?"
+            android:text="¿Cómo es un control antidopaje?"
             android:layout_weight="8"/>
 
         <ImageView
