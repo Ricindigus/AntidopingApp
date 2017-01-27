@@ -38,7 +38,7 @@ public class PrincipalActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void goAUT(View view){
-        Intent intent = new Intent(getApplicationContext(),TabActivity.class);
+        Intent intent = new Intent(getApplicationContext(),AUTActivity.class);
         startActivity(intent);
     }
 

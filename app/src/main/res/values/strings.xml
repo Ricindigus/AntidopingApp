@@ -64,8 +64,11 @@
         \nLa AUT solo funcionará retroactivamente en casos de emergencia debidamente acreditados.
 </string>
     <string name="pasos_a_seguir">¿QUÉ PASOS DEBO SEGUIR?</string>
-    <string name="aut_paso1">Descarga el formulario de AUT (https://goo.gl/ESbfNB)</string>
+    <string name="aut_paso1">Descarga el formulario de AUT \nhttps://goo.gl/ESbfNB</string>
     <string name="aut_paso2">Llena el formulario con tu médico y envíalo al correo de la comisión de AUT de la CONAD</string>
     <string name="aut_paso3">Una vez recibida tu solicitud, el panel de expertos la revisará y decidirá favorablemente en los siguientes casos:</string>
     <string name="aut_paso4">La CONAD te informará si tu solicitud fue aprobada. En caso de una solicitud denegada, se te informarán las razones y podrás apelar dicha decisión.</string>
+    <string name="lista_prohibida_texto">La Lista Prohibida es un documento internacional preparado por la Agencia Mundial Antidopaje en el que se identifican las sustancias y métodos prohibidos en el deporte. Hay sustancias prohibidas en competencia y otras que están prohibidas fuera de competencia.
+Conócelas AQUÍ.\nhttps://goo.gl/snwvEY \n
+</string>
 </resources>

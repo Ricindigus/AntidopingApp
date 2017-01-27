@@ -12,15 +12,19 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
     <style name="RaisedButtonDarkBusqueda" parent="Theme.AppCompat.Light">
         <item name="colorButtonNormal">@color/busqueda_primary_dark</item>
         <item name="colorControlHighlight">@color/busqueda_primary</item>
         <item name="android:textColor">@android:color/white</item>
     </style>
-
+    <style name="RaisedButtonDarkAut" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/aut_primary</item>
+        <item name="colorControlHighlight">@color/aut_primary_light</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 
 </resources>

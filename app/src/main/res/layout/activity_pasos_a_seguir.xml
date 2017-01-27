@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.apoyo03_ui.antidoppingapp.TabActivity">
+    tools:context="com.example.apoyo03_ui.antidoppingapp.PasosASeguirActivity">
 
     <include layout="@layout/toolbar_app"/>
 
@@ -16,12 +16,6 @@
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         >
-        <TextView
-            android:padding="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/aut_texto"/>
-
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
