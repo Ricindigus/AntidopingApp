@@ -1,13 +1,10 @@
 package com.example.apoyo03_ui.antidoppingapp;
 
 import android.annotation.SuppressLint;
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.support.annotation.IdRes;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -15,18 +12,8 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Toast;
 
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment1;
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment10;
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment2;
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment3;
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment4;
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment5;
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment6;
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment7;
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment8;
-import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment9;
+import com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.SancionadoFragment;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnTabSelectListener;
 
@@ -58,54 +45,54 @@ public class SancionadoActivity extends AppCompatActivity {
             public void onTabSelected(@IdRes int tabId) {
                 switch(tabId){
                     case R.id.tab_1:
+                        fragment = new SancionadoFragment(0);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 0;
-                        fragment = new Fragment1();
                         break;
                     case R.id.tab_2:
+                        fragment = new SancionadoFragment(1);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 1;
-                        fragment = new Fragment2();
                         break;
                     case R.id.tab_3:
+                        fragment = new SancionadoFragment(2);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 2;
-                        fragment = new Fragment3();
                         break;
                     case R.id.tab_4:
+                        fragment = new SancionadoFragment(3);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 3;
-                        fragment = new Fragment4();
                         break;
                     case R.id.tab_5:
+                        fragment = new SancionadoFragment(4);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 4;
-                        fragment = new Fragment5();
                         break;
                     case R.id.tab_6:
+                        fragment = new SancionadoFragment(5);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 5;
-                        fragment = new Fragment6();
                         break;
                     case R.id.tab_7:
+                        fragment = new SancionadoFragment(6);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 6;
-                        fragment = new Fragment7();
                         break;
                     case R.id.tab_8:
+                        fragment = new SancionadoFragment(7);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 7;
-                        fragment = new Fragment8();
                         break;
                     case R.id.tab_9:
+                        fragment = new SancionadoFragment(8);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 8;
-                        fragment = new Fragment9();
                         break;
                     case R.id.tab_10:
+                        fragment = new SancionadoFragment(9);
                         fragmentAnterior = fragmentActual;
                         fragmentActual = 9;
-                        fragment = new Fragment10();
                         break;
                     default:break;
                 }

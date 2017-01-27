@@ -43,7 +43,7 @@
             android:id="@+id/contentContainer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/muestra_orina"
+            android:background="@color/primary_light"
             android:layout_below="@id/layout_text"
             android:layout_above="@+id/bottomBar" />
         <com.roughike.bottombar.BottomBar

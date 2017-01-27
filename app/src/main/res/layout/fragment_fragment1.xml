@@ -2,15 +2,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.Fragment1">
+    tools:context="com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.SancionadoFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
+        android:id="@+id/layout_fragment_sancionado"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/muestra_orina"
         android:orientation="vertical">
         <TextView
+            android:id="@+id/texto_fragment_sancionado"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:background="#55000000"

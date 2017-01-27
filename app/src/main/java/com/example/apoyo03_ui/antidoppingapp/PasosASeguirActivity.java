@@ -1,5 +1,6 @@
 package com.example.apoyo03_ui.antidoppingapp;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
@@ -17,8 +18,12 @@ import android.view.ViewGroup;
 
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 public class PasosASeguirActivity extends AppCompatActivity {
+
+
 
 
     private SectionsPagerAdapter mSectionsPagerAdapter;
@@ -77,6 +82,10 @@ public class PasosASeguirActivity extends AppCompatActivity {
 
     public static class PlaceholderFragment extends Fragment {
         private static final String ARG_SECTION_NUMBER = "section_number";
+        private int[] textos = {R.string.aut_paso1, R.string.aut_paso2, R.string.aut_paso3
+                , R.string.aut_paso4};
+        private int[] imagenes = {R.drawable.formulario_aut, R.drawable.correo_electronico, R.drawable.panel_expertos
+                , R.drawable.conad_informara};
         public PlaceholderFragment() {
         }
         public static PlaceholderFragment newInstance(int sectionNumber) {
@@ -86,25 +95,48 @@ public class PasosASeguirActivity extends AppCompatActivity {
             fragment.setArguments(args);
             return fragment;
         }
+        @SuppressLint("NewApi")
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
 
-            View rootView = null;
+            View rootView = rootView = inflater.inflate(R.layout.fragment_pasos_a_seguir, container, false);
             int pagina = getArguments().getInt(ARG_SECTION_NUMBER);
-
+            TextView textView1;
+            TextView textView2;
+            RelativeLayout relativeLayout;
             switch (pagina) {
                 case 1:
-                    rootView = inflater.inflate(R.layout.fragment_paso1, container, false);
+                    textView1 = (TextView) rootView.findViewById(R.id.txt_descripcion_paso);
+                    textView1.setText(getString(textos[pagina-1]));
+                    textView2 = (TextView) rootView.findViewById(R.id.txt_numero_paso);
+                    textView2.setText("PASO 1");
+                    relativeLayout = (RelativeLayout) rootView.findViewById(R.id.layout_pasos);
+                    relativeLayout.setBackground(ContextCompat.getDrawable(getContext(), imagenes[pagina-1]));
                     break;
                 case 2:
-                    rootView = inflater.inflate(R.layout.fragment_paso2, container, false);
+                    textView1 = (TextView) rootView.findViewById(R.id.txt_descripcion_paso);
+                    textView1.setText(getString(textos[pagina-1]));
+                    textView2 = (TextView) rootView.findViewById(R.id.txt_numero_paso);
+                    textView2.setText("PASO 2");
+                    relativeLayout = (RelativeLayout) rootView.findViewById(R.id.layout_pasos);
+                    relativeLayout.setBackground(ContextCompat.getDrawable(getContext(), imagenes[pagina-1]));
                     break;
                 case 3:
-                    rootView = inflater.inflate(R.layout.fragment_paso3, container, false);
+                    textView1 = (TextView) rootView.findViewById(R.id.txt_descripcion_paso);
+                    textView1.setText(getString(textos[pagina-1]));
+                    textView2 = (TextView) rootView.findViewById(R.id.txt_numero_paso);
+                    textView2.setText("PASO 3");
+                    relativeLayout = (RelativeLayout) rootView.findViewById(R.id.layout_pasos);
+                    relativeLayout.setBackground(ContextCompat.getDrawable(getContext(), imagenes[pagina-1]));
                     break;
                 case 4:
-                    rootView = inflater.inflate(R.layout.fragment_paso4, container, false);
+                    textView1 = (TextView) rootView.findViewById(R.id.txt_descripcion_paso);
+                    textView1.setText(getString(textos[pagina-1]));
+                    textView2 = (TextView) rootView.findViewById(R.id.txt_numero_paso);
+                    textView2.setText("PASO 4");
+                    relativeLayout = (RelativeLayout) rootView.findViewById(R.id.layout_pasos);
+                    relativeLayout.setBackground(ContextCompat.getDrawable(getContext(), imagenes[pagina-1]));
                     break;
                 default: break;
             }
