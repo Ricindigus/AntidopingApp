@@ -5,27 +5,28 @@
     tools:context="com.example.apoyo03_ui.antidoppingapp.fragmentsSancionado.SancionadoFragment">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imagen_fragment_sancionado"
+        android:background="@drawable/muestra_orina"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <LinearLayout
+        android:layout_gravity="top"
         android:id="@+id/layout_fragment_sancionado"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/muestra_orina"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
+            android:gravity="center_vertical"
+            android:padding="@dimen/activity_vertical_margin"
             android:id="@+id/texto_fragment_sancionado"
             android:textStyle="bold"
             android:textColor="#FFFFFF"
             android:background="#55000000"
-            android:padding="5dp"
-            android:gravity="center_vertical"
-            android:layout_weight="2"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="match_parent"
             android:text="@string/texto_sancionado_1" />
-        <ImageView
-            android:layout_weight="8"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" />
     </LinearLayout>
 
 </FrameLayout>

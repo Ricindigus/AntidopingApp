@@ -14,128 +14,156 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scrollbars="vertical">
-            <LinearLayout
+            <FrameLayout
+                android:id="@+id/card_fragment_deporte_1"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:background="@drawable/man"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
                 android:elevation="2dp"
                 >
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imagen_deporte_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
                 <LinearLayout
-                    android:layout_weight="1"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"></LinearLayout>
-                <TextView
-                    android:textStyle="bold"
-                    android:background="#55000000"
-                    android:padding="5dp"
-                    android:layout_weight="1"
-                    android:gravity=""
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:text="@string/vida_deportiva_texto1"
-                    android:textColor="@color/icons"
-                    android:textSize="15sp"/>
-            </LinearLayout>
-            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#55000000"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="@string/vida_deportiva_texto1"
+                        android:textColor="@color/icons"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/card_fragment_deporte_2"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:background="@drawable/apoyo_economico"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
                 android:elevation="2dp"
                 >
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imagen_deporte_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
                 <LinearLayout
-                    android:layout_weight="1"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"></LinearLayout>
-                <TextView
-                    android:textStyle="bold"
-                    android:background="#55000000"
-                    android:padding="5dp"
-                    android:layout_weight="1"
-                    android:gravity=""
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:text="@string/vida_deportiva_texto2"
-                    android:textColor="@color/icons"
-                    android:textSize="15sp"/>
-
-            </LinearLayout>
-            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#55000000"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="@string/vida_deportiva_texto2"
+                        android:textColor="@color/icons"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/card_fragment_deporte_3"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:background="@drawable/medallas"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
                 android:elevation="2dp"
                 >
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imagen_deporte_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
                 <LinearLayout
-                    android:layout_weight="1"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"></LinearLayout>
-                <TextView
-                    android:textStyle="bold"
-                    android:background="#55000000"
-                    android:padding="5dp"
-                    android:layout_weight="1"
-                    android:gravity=""
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:text="@string/vida_deportiva_texto3"
-                    android:textColor="@color/icons"
-                    android:textSize="15sp"/>
-
-            </LinearLayout>
-            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#55000000"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="@string/vida_deportiva_texto3"
+                        android:textColor="@color/icons"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/card_fragment_deporte_4"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:background="@drawable/campo_entrenamiento"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
                 android:elevation="2dp"
                 >
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imagen_deporte_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
                 <LinearLayout
-                    android:layout_weight="1"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"></LinearLayout>
-                <TextView
-                    android:textStyle="bold"
-                    android:background="#55000000"
-                    android:padding="5dp"
-                    android:layout_weight="1"
-                    android:gravity=""
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:text="@string/vida_deportiva_texto4"
-                    android:textColor="@color/icons"
-                    android:textSize="15sp"/>
-            </LinearLayout>
-            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#55000000"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="@string/vida_deportiva_texto4"
+                        android:textColor="@color/icons"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:id="@+id/card_fragment_deporte_5"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:background="@drawable/propia_cuenta"
                 android:layout_height="200dp"
                 android:layout_marginBottom="10dp"
                 android:elevation="2dp"
                 >
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imagen_deporte_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
                 <LinearLayout
-                    android:layout_weight="1"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"></LinearLayout>
-                <TextView
-                    android:textStyle="bold"
-                    android:background="#55000000"
-                    android:padding="5dp"
-                    android:layout_weight="1"
-                    android:gravity=""
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:text="@string/vida_deportiva_texto5"
-                    android:textColor="@color/icons"
-                    android:textSize="15sp"/>
-            </LinearLayout>
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom">
+                    <TextView
+                        android:textStyle="bold"
+                        android:background="#55000000"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="@string/vida_deportiva_texto5"
+                        android:textColor="@color/icons"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+            </FrameLayout>
 
         </LinearLayout>
     </ScrollView>

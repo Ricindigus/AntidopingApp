@@ -8,6 +8,7 @@ import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -47,8 +48,8 @@ public class SancionadoFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_fragment1, container, false);
         TextView textView = (TextView) rootView.findViewById(R.id.texto_fragment_sancionado);
         textView.setText(getString(textos[numFragment]));
-        LinearLayout linearLayout = (LinearLayout)rootView.findViewById(R.id.layout_fragment_sancionado);
-        linearLayout.setBackground(ContextCompat.getDrawable(getContext(), imagenes[numFragment]));
+        ImageView imageView = (ImageView)rootView.findViewById(R.id.imagen_fragment_sancionado);
+        imageView.setBackground(ContextCompat.getDrawable(getContext(), imagenes[numFragment]));
         return rootView;
     }
 

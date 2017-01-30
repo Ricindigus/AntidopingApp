@@ -14,6 +14,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
+
+import com.squareup.picasso.Picasso;
 
 public class RiesgosActivity extends AppCompatActivity {
 
@@ -79,6 +82,16 @@ public class RiesgosActivity extends AppCompatActivity {
                     break;
                 case 2:
                     rootView = inflater.inflate(R.layout.fragment_deporte, container, false);
+                    ImageView imageView = (ImageView)rootView.findViewById(R.id.imagen_deporte_1);
+                    Picasso.with(getContext()).load("http://blog.nutritienda.com/wp-content/uploads/2016/05/Deportista-cansado.jpg").into(imageView);
+                    imageView = (ImageView)rootView.findViewById(R.id.imagen_deporte_2);
+                    Picasso.with(getContext()).load("http://www.mundoeurolatino.com/wp-content/uploads/2016/01/1282065.jpg").into(imageView);
+                    imageView = (ImageView)rootView.findViewById(R.id.imagen_deporte_3);
+                    Picasso.with(getContext()).load("http://www.bellomagazine.com/files/bellomagazine/paises-que-tienen-mas-medallas-olimpicas.jpg").into(imageView);
+                    imageView = (ImageView)rootView.findViewById(R.id.imagen_deporte_4);
+                    Picasso.with(getContext()).load("http://greenpowerperu.com/image/grassnatural/gn16g.jpg").into(imageView);
+                    imageView = (ImageView)rootView.findViewById(R.id.imagen_deporte_5);
+                    Picasso.with(getContext()).load("http://vidasaludable.com/wp-content/uploads/2013/09/3-Ejercicio2.jpg").into(imageView);
                     break;
                 default: break;
             }
@@ -115,50 +128,3 @@ public class RiesgosActivity extends AppCompatActivity {
     }
 }
 
-
-//public class RiesgosActivity extends AppCompatActivity {
-//
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_riesgos);
-//        showToolbar("Riesgos del Dopaje",true);
-//        if (android.os.Build.VERSION.SDK_INT >= 21) {
-//            Window window = this.getWindow();
-//            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-//            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-//            window.setStatusBarColor(ContextCompat.getColor(getApplicationContext(), R.color.riesgo_primary_dark));
-//        }
-//        BottomBar bottomBar = (BottomBar) findViewById(R.id.bottomBar);
-//        bottomBar.setDefaultTab(R.id.tab_salud);
-//
-//
-//        bottomBar.setOnTabSelectListener(new OnTabSelectListener() {
-//            @Override
-//            public void onTabSelected(@IdRes int tabId) {
-//                if (tabId == R.id.tab_deporte) {
-//                    DeporteFragment deporteFragment = new DeporteFragment();
-//                    FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-//                    fragmentTransaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left, R.anim.enter_from_left, R.anim.exit_to_right);
-//                    fragmentTransaction.replace(R.id.contentContainer,deporteFragment);
-//                    fragmentTransaction.addToBackStack(null).commit();
-//                }
-//                if (tabId == R.id.tab_salud) {
-//                    SaludFragment saludFragment = new SaludFragment();
-//                    FragmentTransaction fragmentTransaction1 = getSupportFragmentManager().beginTransaction();
-//                    fragmentTransaction1.setCustomAnimations(R.anim.enter_from_left, R.anim.exit_to_right, R.anim.enter_from_right, R.anim.exit_to_left);
-//                    fragmentTransaction1.replace(R.id.contentContainer,saludFragment);
-//                    fragmentTransaction1.addToBackStack(null).commit();
-//                }
-//            }
-//        });
-//    }
-//
-//    public void showToolbar(String title, boolean upButton){
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbarApp);
-//        toolbar.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.riesgo_primary));
-//        setSupportActionBar(toolbar);
-//        getSupportActionBar().setTitle(title);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(upButton);
-//    }
-//}
